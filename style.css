@@ -1,7 +1,84 @@
-#logo{
-    height: 200px;
-    width: 500px;
+.logo{
+    height: 100px;
+    width: 180px;
+    position: absolute;
+    margin: auto;
+    top: 90px;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -90px;
+}
+/*affects the position of the navbar*/
+.menuNav{
     position: relative;
+    top: 0px;
+   
+}
+/*affects spacing between navbar links*/
+.navbar-nav > li{
+  margin-left: 75px;
+  margin-right: 75px;
+}
+/*affects the navbar links*/
+
+/*affects the carousel images on the gallery page*/
+.carouselImage{
+    width: 550px;
+    height: 450px;
     display: block;
     margin: auto;
+}
+
+/*affects navbar brand*/
+.navbar-default .navbar-brand {
+    color: black;
+}
+
+
+footer {
+font-size: 12px;
+padding: 20px 0;
+/*background-image: url("http://cdn.ek.aero/us/english/images/New-York-1_tcm272-2256848.jpg");*/
+margin-top: 50px;
+background-color: black;
+}
+
+footer .col-sm-8 {
+display: flex;
+justify-content: flex-end;
+}
+
+footer ul {
+list-style: none;
+}
+
+footer li img {
+width: 32px;
+height: 32px;
+}
+
+footer .col-sm-4 {
+color: #FFF; 
+}
+
+.col-sm-6 {
+font-family: Cursive; 
+text-align: center;
+border: 2px solid black;
+font-size: 15px;
+}
+
+footer .row {
+display: flex;
+align-items: center;
+}
+/*affects the entire navbar*/
+nav{
+    height: 150px;
+    background-color: #ff3333;
+}
+.navbarText{
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
 }
