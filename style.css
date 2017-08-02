@@ -63,7 +63,7 @@ nav{
 #contactTitle{
     font-size: 32px;
     color: black;
-     font-family:italiana;
+    font-family:italiana;
 }
 
 .img-thumbnail{
@@ -89,9 +89,9 @@ nav{
     font-weight: bold;
 }
 
-
-
-
+.fb-page{
+    background: #085608;
+}
 
 
 

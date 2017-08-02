@@ -3,7 +3,7 @@ $(document).ready(function() {
     // All your Javascript
     // code to cycle through carousel
     $("#myCarousel").carousel({
-        interval: 1500
+        interval: 3500
     });
     //code to add and delete active class
     $("ul li").click(function(){
