@@ -77,7 +77,7 @@ nav{
     display: inline-block;
 }
   
-#menuNav{
+.menuNav{
     font-size: 22px;
     color: white;
     font-weight: bold;

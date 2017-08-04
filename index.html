@@ -20,15 +20,15 @@
               <div class = "row">
                 <div class = "col-xs-12" id = "centerNav">
                 <div class="navbar-header">
-                    <a class="navbar-brand" href="home.html" class = "navbarTitle"></a>
+                    <a class="navbar-brand" href="index.html" class = "navbarTitle"></a>
                 </div>
                 <ul class="nav navbar-nav menuNav">
                     <!-- navbar links here -->
-                    <li class = "active"><a class = "navbarText" href="home.html">Home</a></li>
+                    <li class = "active"><a class = "navbarText" href="index.html">Home</a></li>
                     <!-- dropdown for menu page -->
                     <li class="dropdown" >
                     
-                        <a class = "btn dropdown-toggle" data-toggle="dropdown" id = "menuNav">Menu</a>
+                        <a class = "btn dropdown-toggle menuNav" data-toggle="dropdown">Menu</a>
                         <ul class="dropdown-menu">
                           <li><a class = "dropdown-item" href="food.html">Food</a></li>
                           <li><a class = "dropdown-item" href="drinks.html">Drinks</a></li>
@@ -39,7 +39,18 @@
                     <li><a class = "navbarText" href="gallery.html">Gallery</a></li>
                     <li><a class = "navbarText" href="about.html">About Us</a></li>
                     <li><a class = "navbarText" href="contact.html">Contact Us</a></li>
-                    <li><a class = "navbarText" href="event.html">Events</a></li>
+                    
+                    <li class="dropdown" >
+                    
+                        <a class = "btn dropdown-toggle menuNav" data-toggle="dropdown">Events</a>
+                        <ul class="dropdown-menu">
+                          <li><a class = "dropdown-item" href="birthdays.html">Birthdays</a></li>
+                          <li><a class = "dropdown-item" href="holidays.html">Holidays</a></li>
+                          <li><a class = "dropdown-item" href="weddings.html">Weddings</a></li>
+                          <li><a class = "dropdown-item" href="other.html">Other</a></li>
+                    </ul>
+                    </li>
+                    
                 </ul>
                 </div>
               </div>
@@ -80,15 +91,16 @@ body, html {
 <footer>
   <div class="container">
     <div class="row">
-      <div class="col-md-4 col-sm-6 footerleft ">
+      <div class="col-md-4 col-sm-4 footerleft ">
         <div class="logofooter"> <img class="img-circle" src="pics/logo.png"></div>
         <p></p>
         <p><i class="fa fa-map-pin"></i> </p>
         <p><i class="fa fa-phone"></i> Phone: (646) 979-7401</p>
-        <p><i class="fa fa-envelope"></i> E-mail : michael@michaelspizzeria.com </p>
-        
+        <p><i class="fa fa-envelope"></i> E-mail: michael@michaelspizzeria.com </p>
+        <p><i class="fa fa-home"></i>Address: 7 Carmine St </p>
+
       </div>
-      <div class="col-md-2 col-sm-6 paddingtop-bottom">
+      <div class="col-md-4 col-sm-4 paddingtop-bottom">
         <h6 class="heading7">PAGE LINKS</h6>
         <ul class="footer-ul">
           <li><a href="index.html"> Home</a></li>
@@ -100,7 +112,7 @@ body, html {
 
         </ul>
       </div>
-      <div class="col-md-3 col-sm-6 paddingtop-bottom">
+      <div class="col-md-4 col-sm-4 paddingtop-bottom">
         <h6 class="heading7">LATEST POST</h6>
         <div class="post">
           <p>Some of the greatest pizza in NYC <span>August 1,2016</span></p>
