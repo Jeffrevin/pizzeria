@@ -8,9 +8,10 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
         <script type="text/javascript" src="script.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Italiana" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css" rel="stylesheet">
     </head>
     <body>
-        
         <!-- navbar code -->
         <!-- CHANGE FONTS TO ITALIANA LATER -->
         <nav class="navbar">
@@ -37,36 +38,62 @@
                     <li><a class = "navbarText" href="gallery.html">Gallery</a></li>
                     <li><a class = "navbarText" href="about.html">About Us</a></li>
                     <li><a class = "navbarText" href="contact.html">Contact Us</a></li>
+                    <li><a class = "navbarText" href="event.html">Events</a></li>
                 </ul>
                 </div>
               </div>
             </div>
         </nav>
+        <!--paralax zoom effect-->
+        <style>
+body, html {
+    height: 100%;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("http://picsee.net/upload/2015-06-25/2c796f4731e0.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;}
+    /*disables paralax scrolling effect for mobile devices*/
+    @media only screen and (max-device-width: 1024px) {
+    .parallax {
+    background-attachment: scroll;
+    }
+}
+</style>
+  
+        <!-- Container element -->
+        <div class="img-responsive col-sm-12 col-xs-12 parallax"></div>
+        <img id = "homePic" src = "http://www.pizzatoday.com/wp-content/uploads/2015/03/Michael-Shepherd.jpeg.jpg">
         
         
         
-        
-        
-        
-        
-        <footer>
+     
+<footer>
   <div class="container">
     <div class="row">
       <div class="col-md-4 col-sm-6 footerleft ">
         <div class="logofooter"> <img class="img-circle" src="pics/logo.png"></div>
         <p></p>
         <p><i class="fa fa-map-pin"></i> </p>
-        <p><i class="fa fa-phone"></i> Phone (646)979-7409</p>
-        <p><i class="fa fa-envelope"></i> E-mail : Michael@scriped.org </p>
+        <p><i class="fa fa-phone"></i> Phone: (646) 979-7401</p>
+        <p><i class="fa fa-envelope"></i> E-mail : michael@michaelspizzeria.com </p>
         
       </div>
       <div class="col-md-2 col-sm-6 paddingtop-bottom">
-        <h6 class="heading7">GENERAL LINKS</h6>
+        <h6 class="heading7">PAGE LINKS</h6>
         <ul class="footer-ul">
           <li><a href="home.html"> Home</a></li>
           <li><a href="gallery.html"> Gallery</a></li>
           <li><a href="about.html"> About</a></li>
-          <li><a href="menu.html"> Menu</a></li>
           <li><a href="food.html">Food</a></li>
           <li><a href="drinks.html"> Drinks</a></li>
           <li><a href="contact.html"> Contact</a></li>
@@ -84,7 +111,6 @@
       <div class="col-md-3 col-sm-6 paddingtop-bottom">
         <div class="fb-page" data-href="https://www.facebook.com/facebook" data-tabs="timeline" data-height="300" data-small-header="false" style="margin-bottom:15px;" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
           <div class="fb-xfbml-parse-ignore">
-            <blockquote class = "colorSpot" cite="https://www.facebook.com/facebook"><a href="https://www.facebook.com/facebook">Facebook</a></blockquote>
           </div>
         </div>
       </div>
@@ -96,12 +122,13 @@
 <div class="copyright">
   <div class="container">
     <div class="col-md-6">
-   <p> ©2017 - ScriptEd StudentMinds</p>
+   <p>©2017 - ScriptEd StudentMinds</p>
    </div>
     <div class="col-md-6">
     </div>
   </div>
 </div>
+        
         
         
         
