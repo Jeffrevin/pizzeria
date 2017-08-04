@@ -152,25 +152,35 @@ nav{
     border-color: #ff3333;
 }
 
-#homePic{
-  width:20%;
-  display:block;
-  position:absolute;
-  left:0;
-  right:0;
-  bottom:0;
-  margin:auto;
+#aboutPic1{
+    width: 50%;
+    height: 475px;
+    position: relative;
+    float: left;
 }
 
+#aboutPic2{
+    width: 50%;
+    height: 475px;
+    position: relative;
+    float: right;
+}
 .italiana{
     font-family: "italiana", serif;
 }
 
 #aboutTitle{
-    
+    font-weight: bold;
+    text-align: center;
+}
+.aboutText{
+    font-weight: bolder;
+    text-align: center;
+    font-size: 16px;
 }
 #aboutBox{
     background: green;
+    opacity: .9;
 }
 
 footer { background-color: #085608; min-height:350px; font-family: 'Open Sans', sans-serif; }
