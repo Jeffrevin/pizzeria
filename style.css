@@ -8,11 +8,6 @@
     margin-top: -50px;
     margin-left: -90px;
 }
-/*affects the position of the navbar*/
-.menuNav{
-    position: relative;
-    top: 0px;
-}
 /*affects spacing between navbar links*/
 .navbar-nav > li{
   margin-left: 20px;
@@ -38,16 +33,20 @@
 
 /*affects the entire navbar*/
 nav{
-    height: 150px;
+    height: 110px;
     background-color: #ff3333;
 }
 
 .navbarText{
     color: white;
-    font-size: 22px;
-    font-weight: bold;
+    font-size: 26px;
+    font-weight: bolder;
 }
-
+.navbarTitle{
+    color: white;
+    font-size: 24;
+    font-weight: bolder;
+}
 .contactInfo{
     font-size: 24px;
     color: black;
@@ -76,11 +75,13 @@ nav{
     float: none;
     display: inline-block;
 }
-  
+/*affects the position of the navbar*/
 .menuNav{
-    font-size: 22px;
+    font-size: 25px;
     color: white;
-    font-weight: bold;
+    font-weight: 600;
+    position: relative;
+    top: 0px;
 }
 
 .dropdown-menu{
@@ -90,7 +91,7 @@ nav{
 .dropdown-menu>li>a{
     color: white;
     font-size: 18px;
-    font-weight: bold;
+    font-weight: 600;
 }
 /*code for hover image text*/
 .textWithBlurredBg{
@@ -111,7 +112,7 @@ nav{
   
 .textWithBlurredBg:hover img{
     filter:blur(2px) brightness(60%);
-    box-shadow:0 0 16px cyan;
+    box-shadow:0 0 16px #ff0000;
 }
    
 .textWithBlurredBg :not(img){
@@ -120,9 +121,10 @@ nav{
     top:30%;
     width:100%;
     text-align:center;
-    color:#fff;
+    color:#d20f0f;
     opacity:0;
     transition:.3s;
+    font-family: "italiana", serif;
 }
   
 .textWithBlurredBg h3{
@@ -153,37 +155,114 @@ nav{
 }
 
 #aboutPic1{
-    width: 50%;
-    height: 475px;
+    display: block;
+    margin: auto;
+    width: 40%;
+    height: 500px;
     position: relative;
-    float: left;
 }
 
 #aboutPic2{
-    width: 50%;
-    height: 475px;
+    display: block;
+    margin: auto;
+    width: 40%;
+    height: 500px;
     position: relative;
-    float: right;
 }
 .italiana{
-    font-family: "italiana", serif;
+    font-family: "Italiana", serif;
 }
 
 #aboutTitle{
-    font-weight: bold;
+    font-weight: 600;
     text-align: center;
+    color: white;
+    font-size: 25px;
 }
 .aboutText{
-    font-weight: bolder;
+    font-weight: 600;
     text-align: center;
-    font-size: 16px;
+    font-size: 18px;
+    color: white;
 }
 #aboutBox{
     background: green;
     opacity: .9;
 }
-
-footer { background-color: #085608; min-height:350px; font-family: 'Open Sans', sans-serif; }
+.foodPizza{
+    display: block;
+    margin: auto;
+    font-weight: 600;
+}
+.centerText{
+    text-align: center;
+}
+#contactTitle{
+    text-align: center;
+    font-weight: 600;
+}
+.contactInfo{
+    text-align: center;
+    font-weight: 600;
+}
+#contactPic{
+    display: block;
+    margin: auto;
+    width: 35%;
+}
+#navLogo{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 85%;
+    top: 2%;
+    height: 75px;
+    width: 130px;
+}
+ul.nav.navbar-nav.menuNav{
+    top: -20px;
+}
+a.navbar-brand{
+    color: white;
+    font-size: 26px;
+    font-weight: 600;
+}
+.aboutText{
+    background: green;
+}
+/*fixes body bg*/
+.greenBG{
+    background: green;
+}
+#foodEntrees{
+    display: block;
+    border-top: solid red 3px;
+}
+#foodSides{
+    display: block;
+    border-top: solid red 3px;
+}
+#foodTitle{
+    font-weight: 600;
+    color: black;
+}
+.foodText{
+    font-weight: 600;
+    color: black;
+}
+#drinksTitle{
+    font-weight: 600;
+    color: black;
+}
+.drinksText{
+    font-weight: 600;
+    color: black;
+}
+.test{
+    position: absolute;
+}
+footer { background-color: #085608; min-height:350px; font-family: 'italiana', serif; font-weight: 600;}
 .footerleft { margin-top:50px; padding:0 36px; }
 .logofooter { margin-bottom:10px; font-size:25px; color:#fff; font-weight:700;}
 
@@ -225,7 +304,6 @@ footer { background-color: #085608; min-height:350px; font-family: 'Open Sans', 
  /*<!------------------------------Footer css for icons-------------------------------->*/
 body {
     font-family: 'italiana', serif;
-    color: #FFF;
     -webkit-font-smoothing: antialiased;
 }
 
