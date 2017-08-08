@@ -121,7 +121,7 @@ nav{
     top:30%;
     width:100%;
     text-align:center;
-    color:#d20f0f;
+    color:#31f00f;
     opacity:0;
     transition:.3s;
     font-family: "italiana", serif;
@@ -157,7 +157,7 @@ nav{
 #aboutPic1{
     display: block;
     margin: auto;
-    width: 40%;
+    width: 35%;
     height: 500px;
     position: relative;
 }
@@ -165,7 +165,7 @@ nav{
 #aboutPic2{
     display: block;
     margin: auto;
-    width: 40%;
+    width: 35%;
     height: 500px;
     position: relative;
 }
@@ -278,8 +278,10 @@ section.module:last-child {
 }
 section.module h2 {
   margin-bottom: 40px;
-  font-family: "Roboto Slab", serif;
+  font-family: "Italiana", serif;
   font-size: 30px;
+  color: black;
+  font-weight: 600;
 }
 section.module p {
   margin-bottom: 40px;
@@ -302,11 +304,11 @@ section.module.parallax {
 section.module.parallax h1 {
   color: rgba(255, 255, 255, 0.8);
   font-size: 48px;
-  line-height: 600px;
   font-weight: 700;
   text-align: center;
   text-transform: uppercase;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  font-family: "Italiana", serif;
 }
 section.module.parallax-1 {
   background-image: url("https://static1.squarespace.com/static/540de6b3e4b0131a4d813120/5522d15ae4b0418888602aeb/5522d674e4b0e72a96c86eb2/1445381459722/ERB_PizzeriaOttoOven3.jpg?format=1500w");
@@ -320,7 +322,7 @@ section.module.parallax-3 {
 
 @media all and (min-width: 600px) {
   section.module h2 {
-    font-size: 42px;
+    font-size: 42px
   }
   section.module p {
     font-size: 20px;
@@ -331,10 +333,13 @@ section.module.parallax-3 {
 }
 @media all and (min-width: 960px) {
   section.module.parallax h1 {
-    font-size: 160px;
+    font-size: 108px;
+    font-family: "Italiana", serif;
   }
 }
-
+#chickenParm{
+    width: 330px;
+}
 footer { background-color: #085608; min-height:350px; font-family: 'italiana', serif; font-weight: 600;}
 .footerleft { margin-top:50px; padding:0 36px; }
 .logofooter { margin-bottom:10px; font-size:25px; color:#fff; font-weight:700;}
