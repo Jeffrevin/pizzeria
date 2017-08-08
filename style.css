@@ -23,7 +23,7 @@
 }
 
 #myCarousel{
-    background: rgba(32, 131, 32, 0.8);
+    background: white;
 }
 
 .carousel-caption{
@@ -186,10 +186,10 @@ nav{
     font-weight: 600;
     text-align: center;
     font-size: 18px;
-    color: white;
+    color: black;
 }
 #aboutBox{
-    background: green;
+    background: white;
     opacity: .9;
 }
 .foodPizza{
@@ -227,11 +227,7 @@ a.navbar-brand{
     font-weight: 600;
 }
 .aboutText{
-    background: green;
-}
-/*fixes body bg*/
-.greenBG{
-    background: green;
+    background: white;
 }
 #foodEntrees{
     display: block;
@@ -349,7 +345,7 @@ section.module.parallax-3 {
     width: 330px;
 }
 footer { background-color: #085608; min-height:350px; font-family: 'italiana', serif; font-weight: 600;}
-.footerleft { margin-top:50px; padding:0 36px; }
+.footerleft { margin-top:50px; padding:0 0px; }
 .logofooter { margin-bottom:10px; font-size:25px; color:#fff; font-weight:700;}
 
 .footerleft p { color:#fff; font-size:14px !important; font-family: 'Open Sans', sans-serif; margin-bottom:15px;}
@@ -377,7 +373,7 @@ footer { background-color: #085608; min-height:350px; font-family: 'italiana', s
  .icon { float:left; margin-right:5px;}
  
  
- .copyright { min-height:40px; background-color:green;}
+ .copyright { min-height:40px; background-color:#085608;}
  .copyright p { text-align:left; color:#FFF; padding:10px 0; margin-bottom:0px;}
  .heading7 { font-size:20px; font-weight:700; color:#d9d6d6; margin-bottom:22px;}
  .post p { font-size:16px; color:white; line-height:20px;}
