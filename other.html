@@ -67,28 +67,34 @@
                    <div class="form-group container italiana">
                       
                       <label  for="name" style="color:black;"  >Name</label>
-                              <input type="text" placeholder="John Doe" class="form-control italiana" name="name">
+                              <input type="text" placeholder="John Doe" class="form-control italiana" name="name" required>
 
                       <label for="email" style= "color:black;"  >Email address:</label>
-                              <input type="email" placeholder="JohnDoe@email.com" class="form-control italiana" id="email" name="_replyto">
+                              <input type="email" placeholder="JohnDoe@email.com" class="form-control italiana" id="email" name="_replyto" required>
                       
                       <label for="number" style= "color:black;">Phone Number</label>
-                              <input type="tel"placeholder="(718)-834-0211" class="form-control italiana" name="number">
+                              <input type="tel"placeholder="(718)-834-0211" class="form-control italiana" name="number" required>
                       
                       <label for="date" style= "color:black;">  Date of Event </label>
-                              <input type="datetime-local" placeholder="1/1/0001" class="form-control italiana" name="date">
+                              <input type="datetime-local" placeholder="1/1/0001" class="form-control italiana" name="date" required>
                               <br>
                                     <label>Food</label>
                               <br>
-                                    <select name="food" id="food" onchange="myFunction()">
+                              <div class="col-sm-4 col-md-4 col-lg-4">
+                                    <select name="food" id="food" onchange="myFunction()" required>
                                       <optgroup label="Entrees">
                                         <option value="Pizza">Pizza</option>
-                                        <option value="Spaghetti w/ homemade marinara sauce and meatballs">Spaghetti w/ homemade marinara sauce and meatballs</option>
+                                        <option value="Spaghetti w/ homemade marinara sauce and meatballs">Spaghetti w/ marinara and meatballs</option>
                                         <option value="Homemade Ravioli">Homemade Ravioli</option>
                                         <option value="Chicken Parmesan">Chicken Parmesan</option>
                                         <option value="Eggplant Parmesan">Eggplant Parmesan</option>
                                         <option value="Chicken Alfredo">Chicken Alfredo</option>
                                       </optgroup>
+                                    </select>
+                                    </div>
+                                   
+                                  <div class="col-sm-4 col-md-4 col-lg-4">
+                                   <select required>
                                       <optgroup label="Sides">
                                         <option value="House Salad">House Salad</option>
                                         <option value="House Salad w. chicken">House Salad w. chicken</option>
@@ -96,27 +102,52 @@
                                         <option value="Buffalo Wings">Buffalo Wings</option>
                                         <option value="Meatballs">Meatballs</option>
                                       </optgroup>
-                                    </select>
+                                   </select>
+                                  </div> 
+                                    
+                                    
+                                    <div class="col-sm-4 col-md-4 col-lg-4">
+                                      <select required>
+                                        <optgroup label="Drinks">
+                                          <option value="pepsi">Pepsi</option>
+                                          <option value="Diet Pepsi">Diet Pepsi</option>
+                                          <option value="Sierra mist">Sierra Mist</option>
+                                          <option value="Sunkist">Sunkist</option>
+                                          <option value="Hawaiian Punch">Hawaiian Punch</option>
+                                          <option value="DrPepper">Dr. Pepper</option>
+                                          <option value="Snapple">Snapple Iced Tea</option>
+                                          <option value="Tea">Tea</option>
+                                          <option value="Water">Water</option>
+                                          <option value="Coffee">Coffee</option>
+                                        </optgroup>
+                                      </select>
+                                    </div>
+                                    
+                                    
+                                    
+                                    
+                                    
                                     <br>
                                     <br>
                                       <label>Topping (+ $2.00)</label>
                                     <br>
-                                    <select name="topping" id="topping" onchange="myFunction()">
+                                    <select name="topping" id="topping" onchange="myFunction()" required>
+                                        <option value="plain">None</option>
                                         <option value="pepperoni">Pepperoni</option>
                                         <option value="sausage">Sausage</option>
                                         <option value="ham">Ham</option>
                                         <option value="pineapple">Pineapple</option>
                                         <option value="mushroom">Mushroom</option>
                                         <option value="pepper">Pepper</option>
-                                        <option value="plain">None</option>
                                     </select>
                               <br>
-                              <br>
+                             <br> 
                       <label style= "color:black;"> Event Description</label>
-                              <textarea id="text" placeholder="Description" class="form-control italiana" name="message"> </textarea>
+                              <textarea id="text" placeholder="Description" class="form-control italiana" name="message" required> </textarea>
                   </div>
-          <button type="submit" class="btn btn-default" value="send" style=" margin:20px;">Submit</button>
+          <button type="submit" class="btn btn-default" value="send" style=" margin-left:175px;">Submit</button>
   </form>
+  
 
 
 
