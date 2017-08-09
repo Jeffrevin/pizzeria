@@ -16,8 +16,8 @@
 
 /*affects the carousel images on the gallery page*/
 .carouselImage{
-    width: 550px;
-    height: 450px;
+    width: 850px;
+    height: 750px;
     display: block;
     margin: auto;
 }
@@ -27,7 +27,14 @@
 }
 
 .carousel-caption{
-    color: black;
+    font-family: "italiana", serif;
+    font-weight: 900;
+}
+.cap{
+    color: #298538;
+    font-family: "italiana", serif;
+    font-weight: 900;
+    font-size: 30px;
 }
 /*affects navbar brand*/
 .navbar-default .navbar-brand {
@@ -160,17 +167,15 @@ nav{
 #aboutPic1{
     display: block;
     margin: auto;
-    width: 45%;
-    height: 500px;
     position: relative;
+    box-shadow: 5px 5px 4px rgba(0, 0, 0, .5);
 }
 
 #aboutPic2{
     display: block;
     margin: auto;
-    width: 45%;
-    height: 500px;
     position: relative;
+    box-shadow: 5px 5px 4px rgba(0, 0, 0, .5);
 }
 .italiana{
     font-family: "Italiana", serif;
@@ -324,6 +329,10 @@ section.module.parallax h1 {
     height: 450px;
     /*position: relative;*/
 }
+#galleryTitle{
+    font-weight: 900;
+    font-size: 35px;
+}
 section.module.parallax-1 {
   background-image: url("https://static1.squarespace.com/static/540de6b3e4b0131a4d813120/5522d15ae4b0418888602aeb/5522d674e4b0e72a96c86eb2/1445381459722/ERB_PizzeriaOttoOven3.jpg?format=1500w");
 }
@@ -357,6 +366,28 @@ section.module.parallax-3 {
 #foodToppings{
     display: block;
     border-top: solid red 3px;
+}
+#peopleTitle{
+    font-weight: 700;
+}
+#birthdayBG{
+    background-image: url("http://www.bobosindoorplayground.com/images/birthday1.jpg");
+}
+#holidaysBG{
+    background-image: url("http://az616578.vo.msecnd.net/files/2015/11/22/635838209875566699-1912025597_Christmas-Party-1.jpg");
+    background-repeat: no-repeat;
+}
+#weddingsBG{
+    background-image: url("https://i.ytimg.com/vi/VNtOv_k-2kQ/maxresdefault.jpg");
+    background-repeat: no-repeat;
+}
+#otherBG{
+    background-image: url("http://az616578.vo.msecnd.net/files/2017/02/28/6362384699061998551682913604_HERO_IBIZA_CLOSING_PARTIES_Privilege.jpg");
+    background-repeat: no-repeat;
+}
+.eventsTitle{
+    color: black;
+    
 }
 footer { background-color: #085608; min-height:350px; font-family: 'Italiana', serif; font-weight: 600;}
 .footerleft { margin-top:50px; padding:0 0px; }

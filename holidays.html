@@ -13,7 +13,7 @@
         <link href="https://fonts.googleapis.com/css?family=Italiana" rel="stylesheet">
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css" rel="stylesheet">
     </head>
-    <body>
+    <body id = "holidaysBG">
         <!-- navbar code -->
         <!-- CHANGE FONTS TO ITALIANA LATER -->
         <nav class="navbar">
@@ -58,7 +58,7 @@
             </div>
         </nav>
         
-         <p style="font-size:30px; font-weight:900; text-align:center;">Holidays</p>
+         <p style="font-size:30px; font-weight:900; text-align:center;" class = "eventsTitle">Holidays</p>
                 
      <form action="https://formspree.io/edwin.j.acevedo.01@gmail.com" method="POST" autocomplete="on">
                    <div class="form-group container italiana">
@@ -73,12 +73,50 @@
                               <input type="tel"placeholder="(718)-834-0211" class="form-control italiana" name="number" required>
                       
                       <label for="date" style= "color:black;">  Date of Event </label>
-                              <input type="datetime-local" placeholder="1/1/0001" class="form-control italiana" name="date" required>
+                              <input type="datetime-local" placeholder="1/1/0001" class="form-control italiana" name="date">
                               <br>
                                     <label>Food</label>
                               <br>
+                              
+                              
+                              
+                         <div class="container">
+                           <div class="row">
+                             <form class="new" method="post" action="/jobs">
+    <div id="dynamicInput"></div>
+    <input type="button" value="Add" onclick="addInput('dynamicInput');" />
+    <input type="button" value="Save" />
+</form>
+                           </div>
+                           
+                         </div>     
+                              
+                              
+                              
+                              
+                              <script type="text/javascript" src="">
+                                var choices = ["Pizza", "Spaghetti w/ homemade marinara sauce and meatballs", "Homemade Ravioli", "Chicken Parmesan", "Eggplant Parmesan","Chicken Alfredo"];
+
+function addInput(divName) {
+    var newDiv = document.createElement('div');
+    var selectHTML = "";
+    selectHTML="<select>";
+    for(i = 0; i < choices.length; i = i + 1) {
+        selectHTML += "<option value='" + choices[i] + "'>" + choices[i] + "</option>";
+    }
+    selectHTML += "</select>";
+    newDiv.innerHTML = selectHTML;
+    document.getElementById(divName).appendChild(newDiv);
+}
+                              </script>
+                              
+                              
+                              
+                              
+                              <div class="container" id="selectItems">
+                                <div class="row">
                               <div class="col-sm-4 col-md-4 col-lg-4">
-                                    <select name="food" id="food" onchange="myFunction()" required>
+                                    <select name="food" id="food" id="selectItems"  onchange="myFunction()" required>
                                       <optgroup label="Entrees">
                                         <option value="Pizza">Pizza</option>
                                         <option value="Spaghetti w/ homemade marinara sauce and meatballs">Spaghetti w/ marinara and meatballs</option>
@@ -89,9 +127,10 @@
                                       </optgroup>
                                     </select>
                                     </div>
+                                    
                                    
                                   <div class="col-sm-4 col-md-4 col-lg-4">
-                                   <select required>
+                                   <select >
                                       <optgroup label="Sides">
                                         <option value="House Salad">House Salad</option>
                                         <option value="House Salad w. chicken">House Salad w. chicken</option>
@@ -119,6 +158,27 @@
                                         </optgroup>
                                       </select>
                                     </div>
+                                    
+                                    
+                                    
+                                    </div>
+                                    </div>
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
                                     
                                     
                                     

@@ -13,7 +13,7 @@
         <link href="https://fonts.googleapis.com/css?family=Italiana" rel="stylesheet">
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css" rel="stylesheet">
     </head>
-    <body>
+    <body id = "birthdayBG">
         <!-- navbar code -->
         <!-- CHANGE FONTS TO ITALIANA LATER -->
         <nav class="navbar">
@@ -57,7 +57,7 @@
             </div>
         </nav>
         
-        <p style="font-size:30px; font-weight:900; text-align:center;">Birthdays</p>
+        <p style="font-size:30px; font-weight:900; text-align:center;" class = "eventsTitle">Birthdays</p>
                 
      <form action="https://formspree.io/edwin.j.acevedo.01@gmail.com" method="POST" autocomplete="on">
                    <div class="form-group container italiana">
@@ -76,8 +76,8 @@
                               <br>
                                     <label>Food</label>
                               <br>
-                              <div class="col-sm-4 col-md-4 col-lg-4">
-                                    <select name="food" id="food" onchange="myFunction()" required>
+                              <div id="food"  class="col-sm-4 col-md-4 col-lg-4">
+                                    <select name="food" onchange="myFunction()" required>
                                       <optgroup label="Entrees">
                                         <option value="Pizza">Pizza</option>
                                         <option value="Spaghetti w/ homemade marinara sauce and meatballs">Spaghetti w/ marinara and meatballs</option>
@@ -89,7 +89,7 @@
                                     </select>
                                     </div>
                                    
-                                  <div class="col-sm-4 col-md-4 col-lg-4">
+                                  <div id="sides" class="col-sm-4 col-md-4 col-lg-4">
                                    <select required>
                                       <optgroup label="Sides">
                                         <option value="House Salad">House Salad</option>
@@ -102,7 +102,7 @@
                                   </div> 
                                     
                                     
-                                    <div class="col-sm-4 col-md-4 col-lg-4">
+                                    <div id="drinks" class="col-sm-4 col-md-4 col-lg-4">
                                       <select required>
                                         <optgroup label="Drinks">
                                           <option value="pepsi">Pepsi</option>
