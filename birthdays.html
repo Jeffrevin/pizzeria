@@ -57,26 +57,71 @@
             </div>
         </nav>
         
-        <p>Birthdays</p>
+        <p style="font-size:30px; font-weight:900; text-align:center;">Birthdays</p>
                 
-     <form action="https://formspree.io/edwin.j.acevedo.01@gmail.com" method="POST">
+     <form action="https://formspree.io/edwin.j.acevedo.01@gmail.com" method="POST" autocomplete="on">
                    <div class="form-group container italiana">
-                      <label for="name" style= color:black>Name</label>
-                        <input type="text" class="form-control italiana" name="name">
+                      
+                      <label  for="name" style="color:black;"  >Name</label>
+                              <input type="text" placeholder="John Doe" class="form-control italiana" name="name">
 
-                      <label for="email" style= color:black>Email address:</label>
-                        <input type="email" class="form-control italiana" id="email" name="_replyto">
-
-                      <label for="number" style= color:black>Number</label>
-                              <input type="number" class="form-control italiana" name="number">
-
-                      <label style= color:black> Comments</label>
-                              <textarea id="text" class="form-control italiana" name="msg"> </textarea>
-
+                      <label for="email" style= "color:black;"  >Email address:</label>
+                              <input type="email" placeholder="JohnDoe@email.com" class="form-control italiana" id="email" name="_replyto">
+                      
+                      <label for="number" style= "color:black;">Phone Number</label>
+                              <input type="tel"placeholder="(718)-834-0211" class="form-control italiana" name="number">
+                      
+                      <label for="date" style= "color:black;">  Date of Event </label>
+                              <input type="datetime-local" placeholder="1/1/0001" class="form-control italiana" name="date">
+                              <br>
+                                    <label>Food</label>
+                              <br>
+                                    <select name="food" id="food" onchange="myFunction()">
+                                      <optgroup label="Entrees">
+                                        <option value="Pizza">Pizza</option>
+                                        <option value="Spaghetti w/ homemade marinara sauce and meatballs">Spaghetti w/ homemade marinara sauce and meatballs</option>
+                                        <option value="Homemade Ravioli">Homemade Ravioli</option>
+                                        <option value="Chicken Parmesan">Chicken Parmesan</option>
+                                        <option value="Eggplant Parmesan">Eggplant Parmesan</option>
+                                        <option value="Chicken Alfredo">Chicken Alfredo</option>
+                                      </optgroup>
+                                      <optgroup label="Sides">
+                                        <option value="House Salad">House Salad</option>
+                                        <option value="House Salad w. chicken">House Salad w. chicken</option>
+                                        <option value="Garlic Knots">Garlic Knots</option>
+                                        <option value="Buffalo Wings">Buffalo Wings</option>
+                                        <option value="Meatballs">Meatballs</option>
+                                      </optgroup>
+                                    </select>
+                                    <br>
+                                    <br>
+                                      <label>Topping (+ $2.00)</label>
+                                    <br>
+                                    <select name="topping" id="topping" onchange="myFunction()">
+                                        <option value="pepperoni">Pepperoni</option>
+                                        <option value="sausage">Sausage</option>
+                                        <option value="ham">Ham</option>
+                                        <option value="pineapple">Pineapple</option>
+                                        <option value="mushroom">Mushroom</option>
+                                        <option value="pepper">Pepper</option>
+                                    </select>
+                              
+                              
+                      <label style= "color:black;"> Event Description</label>
+                              <textarea id="text" placeholder="Description" class="form-control italiana" name="message"> </textarea>
                   </div>
-          <button type="submit" class="btn btn-default" value="send">Submit</button>
+          <button type="submit" class="btn btn-default" value="send" style=" margin:20px;">Submit</button>
   </form>
 
+     
+     
+     
+     
+     
+     
+     
+     
+     
      
      
      
@@ -100,10 +145,10 @@
         <h6 class="heading7">PAGE LINKS</h6>
         <ul class="footer-ul">
           <li><a href="index.html"> Home</a></li>
-          <li><a href="gallery.html"> Gallery</a></li>
-          <li><a href="about.html"> About</a></li>
           <li><a href="food.html">Food</a></li>
           <li><a href="drinks.html"> Drinks</a></li>
+          <li><a href="gallery.html"> Gallery</a></li>
+          <li><a href="about.html"> About</a></li>
           <li><a href="contact.html"> Contact</a></li>
 
         </ul>
@@ -120,14 +165,22 @@
     <div class="col-md-3 col-sm-3 paddingtop-bottom" style="text-align:center;">
         <h6 class="heading7">Add Us On Snap</h6>
         <div class="post">
-          <img src="pics/snapcode.png" style="width:250px; height:250px; paddingtop:10px;">
+          <img src="pics/snapcodeAlpha.png" style="width:250px; height:250px; paddingtop:10px;">
          
         </div>
       </div>
     
     
     
-    
+    <div class="copyright">
+      <div class="container">
+    <div class="col-md-6">
+   <p>©2017 - ScriptEd StudentMinds</p>
+   </div>
+    <div class="col-md-6">
+    </div>
+      </div>
+    </div>
     
     
     
@@ -139,15 +192,7 @@
 </footer>
 
 
-<div class="copyright">
-  <div class="container">
-    <div class="col-md-6">
-   <p>©2017 - ScriptEd StudentMinds</p>
-   </div>
-    <div class="col-md-6">
-    </div>
-  </div>
-</div>
+
 <!--End of footer-->
     
     </body>

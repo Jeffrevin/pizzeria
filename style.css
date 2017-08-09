@@ -344,11 +344,15 @@ section.module.parallax-3 {
 #chickenParm{
     width: 330px;
 }
-footer { background-color: #085608; min-height:350px; font-family: 'italiana', serif; font-weight: 600;}
+#foodToppings{
+    display: block;
+    border-top: solid red 3px;
+}
+footer { background-color: #085608; min-height:350px; font-family: 'Italiana', serif; font-weight: 600;}
 .footerleft { margin-top:50px; padding:0 0px; }
 .logofooter { margin-bottom:10px; font-size:25px; color:#fff; font-weight:700;}
 
-.footerleft p { color:#fff; font-size:14px !important; font-family: 'Open Sans', sans-serif; margin-bottom:15px;}
+.footerleft p { color:#fff; font-size:13px !important; font-family: 'Italiana', serif; margin-bottom:15px;}
 .footerleft p i { width:20px; color:#999;}
 
 

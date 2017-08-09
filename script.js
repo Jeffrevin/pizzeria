@@ -15,3 +15,12 @@ $(document).ready(function() {
     //
     
 });
+
+
+
+function myFunction() {
+    var x = document.getElementById("food").value;
+    if(x == "pizza"){
+       document.getElementById("topping").value = "C";
+    }
+}
