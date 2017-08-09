@@ -36,7 +36,7 @@
 
 /*affects the entire navbar*/
 nav{
-    height: 110px;
+    height: 135px;
     background-color: #ff3333;
 }
 
@@ -179,7 +179,7 @@ nav{
 #aboutTitle{
     font-weight: 600;
     text-align: center;
-    color: white;
+    color: black;
     font-size: 25px;
 }
 .aboutText{
@@ -305,14 +305,24 @@ section.module.parallax h1 {
   font-family: "Italiana", serif;
 }
 #map{
-    top: -425px;
-    left: 625px;
-    position: relative;
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height: 450px;
+    width: 450px;
+}
+.map-responsive iframe{
+    left:400px;
+    top:150px;
+    height:100%;
+    width:100%;
+    position:absolute;
 }
 #contactPic{
-    top: -10px;
-    width: 35%;
-    position: relative;
+    /*top: -100px;*/
+    width: 450px;
+    height: 450px;
+    /*position: relative;*/
 }
 section.module.parallax-1 {
   background-image: url("https://static1.squarespace.com/static/540de6b3e4b0131a4d813120/5522d15ae4b0418888602aeb/5522d674e4b0e72a96c86eb2/1445381459722/ERB_PizzeriaOttoOven3.jpg?format=1500w");
