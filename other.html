@@ -60,25 +60,25 @@
         
 
 
-
-          <p style="font-size:30px; font-weight:900; text-align:center;" class = "eventsTitle">Others</p>
+        <div class = "eventDiv">
+          <p style="font-size:36px; font-weight:900; text-align:center;" class = "eventsTitle">Others</p>
                 
      <form action="https://formspree.io/edwin.j.acevedo.01@gmail.com" method="POST" autocomplete="on">
                    <div class="form-group container italiana">
                       
-                      <label  for="name" style="color:black;"  >Name</label>
+                      <label  for="name" style="color:black;" class = "eventsText">Name:</label>
                               <input type="text" placeholder="John Doe" class="form-control italiana" name="name" required>
 
-                      <label for="email" style= "color:black;"  >Email address:</label>
+                      <label for="email" style= "color:black;" class = "eventsText">Email address:</label>
                               <input type="email" placeholder="JohnDoe@email.com" class="form-control italiana" id="email" name="_replyto" required>
                       
-                      <label for="number" style= "color:black;">Phone Number</label>
+                      <label for="number" style= "color:black;" class = "eventsText">Phone Number:</label>
                               <input type="tel"placeholder="(718)-834-0211" class="form-control italiana" name="number" required>
                       
-                      <label for="date" style= "color:black;">  Date of Event </label>
+                      <label for="date" style= "color:black;" class = "eventsText">Date and Time of Event:</label>
                               <input type="datetime-local" placeholder="1/1/0001" class="form-control italiana" name="date" required>
                               <br>
-                                    <label>Food</label>
+                                    <label class = "eventsText">Food:</label>
                               <br>
                               <div class="col-sm-4 col-md-4 col-lg-4">
                                     <select name="food" id="food" onchange="myFunction()" required>
@@ -129,7 +129,7 @@
                                     
                                     <br>
                                     <br>
-                                      <label>Topping (+ $2.00)</label>
+                                      <label class = "eventsText">Topping (+ $2.00):</label>
                                     <br>
                                     <select name="topping" id="topping" onchange="myFunction()" required>
                                         <option value="plain">None</option>
@@ -142,12 +142,12 @@
                                     </select>
                               <br>
                              <br> 
-                      <label style= "color:black;"> Event Description</label>
+                      <label style= "color:black;" class = "eventsText"> Event Description:</label>
                               <textarea id="text" placeholder="Description" class="form-control italiana" name="message" required> </textarea>
                   </div>
-          <button type="submit" class="btn btn-default" value="send" style=" margin-left:175px;">Submit</button>
+          <center><button type="submit" class="btn btn-default btn-lg boldButton" value="send">Submit</button></center>
   </form>
-  
+ </div>
 
 
 

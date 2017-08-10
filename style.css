@@ -8,11 +8,6 @@
     margin-top: -50px;
     margin-left: -90px;
 }
-/*affects spacing between navbar links*/
-.navbar-nav > li{
-  margin-left: 20px;
-  margin-right: 20px;
-}
 
 /*affects the carousel images on the gallery page*/
 .carouselImage{
@@ -66,7 +61,7 @@ nav{
 #contactTitle{
     font-size: 32px;
     color: black;
-    font-family:italiana;
+    font-family: "italiana", serif;
 }
 
 .img-thumbnail{
@@ -80,10 +75,13 @@ nav{
 .navbar-nav {
     width: 100%;
     text-align: center;
+
 }
 .navbar-nav > li {
     float: none;
     display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 /*affects the position of the navbar*/
 .menuNav{
@@ -182,15 +180,15 @@ nav{
 }
 
 #aboutTitle{
-    font-weight: 600;
+    font-weight: 900;
     text-align: center;
     color: black;
-    font-size: 25px;
+    font-size: 36px;
 }
 .aboutText{
     font-weight: 600;
     text-align: center;
-    font-size: 18px;
+    font-size: 24px;
     color: black;
 }
 #aboutBox{
@@ -315,23 +313,28 @@ section.module.parallax h1 {
     position:relative;
     height: 450px;
     width: 450px;
+    border: 3px solid red;
+    box-shadow:0 0 8px #ff0000;
 }
+
 .map-responsive iframe{
     left:400px;
     top:150px;
     height:100%;
     width:100%;
-    position:absolute;
+    position:relative;
 }
 #contactPic{
-    /*top: -100px;*/
+    border: 3px solid red;
     width: 450px;
     height: 450px;
-    /*position: relative;*/
+    position: relative;
+    box-shadow:0 0 8px #ff0000;
 }
 #galleryTitle{
     font-weight: 900;
-    font-size: 35px;
+    font-size: 36px;
+    color: black;
 }
 section.module.parallax-1 {
   background-image: url("https://static1.squarespace.com/static/540de6b3e4b0131a4d813120/5522d15ae4b0418888602aeb/5522d674e4b0e72a96c86eb2/1445381459722/ERB_PizzeriaOttoOven3.jpg?format=1500w");
@@ -369,13 +372,18 @@ section.module.parallax-3 {
 }
 #peopleTitle{
     font-weight: 700;
+    color: black;
+    font-size: 36px;
 }
-#birthdayBG{
-    background-image: url("http://www.bobosindoorplayground.com/images/birthday1.jpg");
+#birthdaysBG{
+    background-image: url("http://downingtownplaydium.com/wp-content/uploads/2014/08/Birthday-Party-for-Kids.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 #holidaysBG{
     background-image: url("http://az616578.vo.msecnd.net/files/2015/11/22/635838209875566699-1912025597_Christmas-Party-1.jpg");
     background-repeat: no-repeat;
+    background-size: cover;
 }
 #weddingsBG{
     background-image: url("https://i.ytimg.com/vi/VNtOv_k-2kQ/maxresdefault.jpg");
@@ -384,10 +392,59 @@ section.module.parallax-3 {
 #otherBG{
     background-image: url("http://az616578.vo.msecnd.net/files/2017/02/28/6362384699061998551682913604_HERO_IBIZA_CLOSING_PARTIES_Privilege.jpg");
     background-repeat: no-repeat;
+    background-size: cover;
 }
 .eventsTitle{
     color: black;
-    
+    font-size: 36px;
+}
+.eventsText{
+    font-size: 30px;
+    color: black;
+}
+input.form-control.italiana{
+    font-weight: 700;
+}
+.aboutBorder{
+    border: 3px solid red;
+    margin: 30px 100px;
+    padding: 30px;
+    box-shadow: 0 3px 10px #4a4646;
+}
+.aboutPictures{
+    border: 3px solid red;
+}
+#contactBorder{
+    border: 3px solid green;
+    margin: 30px 100px;
+    padding: 30px;
+    box-shadow: 0 3px 10px #4a4646;
+}
+
+@media all and (max-width: 768px) {
+    #contactPic{
+        display: block;
+    }
+    #map{
+        display: block;
+    }
+}
+#text{
+    font-weight: 700;
+}
+.boldButton{
+    font-weight: 800;
+    margin-top: 15px;
+}
+.eventDiv{
+    background-color: white;
+    border-radius: 15px;
+    margin: 85px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+select{
+    font-weight: 700;
 }
 footer { background-color: #085608; min-height:350px; font-family: 'Italiana', serif; font-weight: 600;}
 .footerleft { margin-top:50px; padding:0 0px; }
