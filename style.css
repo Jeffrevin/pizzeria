@@ -437,6 +437,11 @@ input.form-control.italiana{
         width: 400px;
     }
 }
+@media screen and (min-width: 750px){
+    textarea#text.form-control.italiana{
+        width: 400px;
+    }
+}
 #text{
     font-weight: 700;
 }
