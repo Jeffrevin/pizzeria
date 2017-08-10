@@ -431,9 +431,10 @@ input.form-control.italiana{
         display: block;
     }
 }
+
 @media screen and (min-width: 750px){
-    .form-control.italiana{
-        width: 550px;
+    input.form-control.italiana{
+        width: 400px;
     }
 }
 #text{
