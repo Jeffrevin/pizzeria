@@ -429,6 +429,11 @@ input.form-control.italiana{
         display: block;
     }
 }
+@media screen and (min-width: 750px) and (max-width: 1440px){
+    .form-control.italiana{
+        width: 550px;
+    }
+}
 #text{
     font-weight: 700;
 }
@@ -445,6 +450,13 @@ input.form-control.italiana{
 }
 select{
     font-weight: 700;
+    width: 125px;
+}
+#hamburger{
+    background: white;
+}
+.icon-bar{
+    background: #ff3333;
 }
 footer { background-color: #085608; min-height:350px; font-family: 'Italiana', serif; font-weight: 600;}
 .footerleft { margin-top:50px; padding:0 0px; }
