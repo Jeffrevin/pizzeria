@@ -455,6 +455,7 @@ input.form-control.italiana{
     margin: 85px;
     padding-bottom: 15px;
     padding-top: 15px;
+    opacity: .92;
 }
 select{
     font-weight: 700;
